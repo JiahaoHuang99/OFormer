@@ -5,7 +5,7 @@ import numpy as np
 from einops import rearrange, repeat, reduce
 from einops.layers.torch import Rearrange
 from torch.nn.init import xavier_uniform_, constant_, xavier_normal_
-from .fourier_neural_operator import SpectralConv2d_fast as fourier_conv
+# from .fourier_neural_operator import SpectralConv2d_fast as fourier_conv
 
 
 class FourierConv2d(nn.Module):

@@ -1,0 +1,13 @@
+
+pretrain/NS2D-Re20/train.sh
+pretrain/NS2D-Re20/model_ckpt/model_checkpoint50000.ckpt
+pretrain/NS2D-Re20/model_ckpt/model_checkpoint40001.ckpt
+pretrain/NS2D-Re20/model_ckpt/model_checkpoint30001.ckpt
+pretrain/NS2D-Re20/model_ckpt/model_checkpoint20001.ckpt
+pretrain/NS2D-Re20/model_ckpt/model_checkpoint10001.ckpt
+pretrain/NS2D-Re20/model_ckpt/model_checkpoint1.ckpt
+pretrain/NS2D-Re20/model_ckpt/latest_checkpoint.txt
+pretrain/NS2D-Re20/logging_info.txt
+pretrain/NS2D-Re20/log.out
+
+.idea
