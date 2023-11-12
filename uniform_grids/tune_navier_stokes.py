@@ -263,14 +263,14 @@ if __name__ == '__main__':
     # save the py script of models
     script_dir = os.path.join(opt.log_dir, 'script_cache')
     ensure_dir(script_dir)
-    shutil.copy('../../nn_module/__init__.py', script_dir)
-    shutil.copy('../../nn_module/attention_module.py', script_dir)
-    shutil.copy('../../nn_module/cnn_module.py', script_dir)
-    shutil.copy('../../nn_module/encoder_module.py', script_dir)
-    shutil.copy('../../nn_module/decoder_module.py', script_dir)
-    shutil.copy('../../nn_module/fourier_neural_operator.py', script_dir)
-    shutil.copy('../../nn_module/gnn_module.py', script_dir)
-    shutil.copy('../../tune_navier_stokes.py', opt.log_dir)
+    # shutil.copy('../../nn_module/__init__.py', script_dir)
+    # shutil.copy('../../nn_module/attention_module.py', script_dir)
+    # shutil.copy('../../nn_module/cnn_module.py', script_dir)
+    # shutil.copy('../../nn_module/encoder_module.py', script_dir)
+    # shutil.copy('../../nn_module/decoder_module.py', script_dir)
+    # shutil.copy('../../nn_module/fourier_neural_operator.py', script_dir)
+    # shutil.copy('../../nn_module/gnn_module.py', script_dir)
+    # shutil.copy('../../tune_navier_stokes.py', opt.log_dir)
 
     # load checkpoint if needed/ wanted
     start_n_iter = 0

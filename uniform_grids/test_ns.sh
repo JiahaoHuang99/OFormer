@@ -1,1 +1,0 @@
-python tune_navier_stokes.py --eval_mode --path_to_resume /media/ssd/data_temp/PDE/model/OFormer/model_checkpoint50000.ckpt --dataset_path /media/ssd/data_temp/PDE/model/OFormer/fno_ns_Re20_N5000_T50.npy
